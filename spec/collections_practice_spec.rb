@@ -67,3 +67,10 @@ describe 'collections practice' do
     end
   end
 end
+
+  descrive 'swap_elements_from_to' do
+    it 'Takes in three arguments, array, index, destination_index, that will allow you to specify the index of the element you would like to move to a new index.' do
+      expect(swap_elements_from_to(["a", "b", "c"],0,2)).to eq(["c", "b", "a"])
+    end
+  end
+end
